@@ -1,8 +1,11 @@
 <?php require('./head.php'); ?>
 
 <main class="container py-3">
-  <?php require('./related-tokens.php'); ?>
-
+  <?php 
+    require('./related-tokens.php');
+    require('./category-banner.php');
+    require('./artists.php')
+  ?>
 </main>
 
 <?php require('./footer.php'); ?>
