@@ -11,6 +11,12 @@
   --button-2: #c66add;
 }
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   background: var(--primary-background);
   font-family: 'League Spartan', sans-serif;
@@ -55,6 +61,12 @@ body {
   font-size: 32px;
 }
 
+@media (width <= 765px) {
+  .title-2 {
+    justify-content: center;
+  }
+}
+
 /* Utilities */
 /* Utilities */
 
@@ -80,6 +92,13 @@ body {
 
 .cart-anchor {
   cursor: default;
+}
+
+@media (width <= 1153px) {
+  .cart-anchor {
+    margin-top: 1rem;
+    border: 1pcx solid black;
+  }
 }
 
 .cart-icon {
@@ -193,16 +212,63 @@ small {
 
 /* Artist Card */
 
-.artist-card-img {
-  border-radius: 50%;
-  border: 1px solid white;
-  width: 4rem;
-  height: 4rem;
+.artist-card {
+  border-radius: 11px;
+  border: 1px solid rgba(255, 255, 255, 0.09);
+  background: rgba(38, 38, 38, 0.71);
+  box-shadow: 0px 7px 28px 0px rgba(0, 0, 0, 0.25);
+  width: 22%;
+  margin-bottom: 1rem;
 }
 
-.artist-card-img img {
-  object-fit: cover;
-  object-position: center;
+@media (width <= 1200px) {
+  .artist-card {
+    width: 30%;
+    margin: 0 auto;
+  }
+}
+
+@media (width <= 995px) {
+  .artist-card {
+    width: 40%;
+  }
+}
+
+@media (width <= 765px) {
+  .artist-card {
+    width: 90%;
+  }
+}
+
+.artist-card-img {
+  border-radius: 50%;
+  width: 4rem;
+  height: 4rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+
+.artist-card-title {
+  color: var(--fuentes-1);
+  font-size: 19px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.artist-card-rs {
+  color: var(--fuentes-1);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.artist-card-sell {
+  background-color: var(--modal);
+  font-size: 13px;
+  border-radius: 20px;
+  padding: 0.25rem 0.6rem;
 }
 
 /* Artist Card */

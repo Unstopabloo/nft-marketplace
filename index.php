@@ -4,8 +4,8 @@
   <?php 
     require('./related-tokens.php');
     require('./category-banner.php');
-    require('./artists.php')
-  ?>
+    require('./artists.php');
+    ?>
 </main>
 
 <?php require('./footer.php'); ?>
