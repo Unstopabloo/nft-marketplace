@@ -2,7 +2,7 @@
 
 :root {
   --background: #242424;
-  --background-2: #24242479;
+  --background-2: #1a1a1aab;
   --primary-background: #171717;
   --modal: #cccccc;
   --fuentes-1: #fffff2;
@@ -28,12 +28,28 @@ body {
   max-width: 95%;
 }
 
+.container {
+  max-width: 80%;
+}
+
+@media (width <= 1150px) {
+  .container {
+    max-width: 95%;
+  }
+}
+
 .bg-1 {
   background: var(--primary-background);
 }
 
 .bg-2 {
   background: var(--background-2);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+}
+
+.mt-x {
+  margin-top: 45vh;
 }
 
 .text-1 {
@@ -88,6 +104,10 @@ body {
 
 .dropdown-toggle::after {
   display: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
 
 .cart-anchor {
@@ -272,3 +292,23 @@ small {
 }
 
 /* Artist Card */
+
+/* Product banner */
+/* Product banner */
+
+.product-banner {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 30em;
+  background-image: url('../img/nft_poster_1.webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  display: grid;
+  place-items: center;
+}
+
+/* Product banner */
+/* Product banner */
