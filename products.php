@@ -2,8 +2,10 @@
 
 <?php require('./product-banner.php') ?>
 <main class="container mt-x pb-3">
-  <?php include('./related-tokens.php'); ?>
-  <?php ?>
+  <?php 
+    require('./related-tokens.php');
+    require('./category-banner.php')
+  ?>
 </main>
 
 <?php require('./footer.php') ?>
