@@ -22,6 +22,20 @@ body {
   font-family: 'League Spartan', sans-serif;
 }
 
+::-webkit-scrollbar {
+  background-color: var(--background);
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--button-2);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b350cb;
+}
+
 /* Utilities */
 /* Utilities */
 .container-fluid {
@@ -49,7 +63,7 @@ body {
 }
 
 .mt-x {
-  margin-top: 45vh;
+  margin-top: 55vh;
 }
 
 .text-1 {
@@ -75,6 +89,13 @@ body {
 .title-2 {
   font-weight: 700;
   font-size: 32px;
+}
+
+.title-3 {
+  color: var(--fuentes-1);
+  font-size: 60px;
+  font-weight: 600;
+  text-shadow: 1px 1px 5px var(--background-2);
 }
 
 @media (width <= 765px) {
@@ -104,6 +125,11 @@ body {
 
 .dropdown-toggle::after {
   display: none;
+}
+
+.dropdown-menu {
+  --bs-dropdown-bg: var(--background);
+  --bs-dropdown-color: var(--fuentes-1);
 }
 
 .navbar-toggler:focus {
@@ -293,8 +319,7 @@ small {
 
 /* Artist Card */
 
-/* Product banner */
-/* Product banner */
+/* Product */
 
 .product-banner {
   position: absolute;
@@ -318,9 +343,54 @@ small {
   height: 100%;
   top: 0;
   z-index: 1;
-  background: rgb(23,23,23);
-  background: linear-gradient(0deg, rgba(23,23,23,1) 0%, rgba(23,23,23,0.95) 7%, rgba(23,23,23,0.9) 13%, rgba(23,23,23,0.85) 21%, rgba(23,23,23,0.7) 33%, rgba(23,23,23,0.6) 50%, rgba(23,23,23,0.5) 73%, rgba(23,23,23,0.1) 100%);
+  background: rgb(23, 23, 23);
+  background: linear-gradient(
+    0deg,
+    rgba(23, 23, 23, 1) 0%,
+    rgba(23, 23, 23, 0.95) 7%,
+    rgba(23, 23, 23, 0.9) 13%,
+    rgba(23, 23, 23, 0.85) 18%,
+    rgba(23, 23, 23, 0.7) 25%,
+    rgba(23, 23, 23, 0.5) 50%,
+    rgba(23, 23, 23, 0.2) 73%,
+    rgba(23, 23, 23, 0.01) 100%
+  );
 }
 
-/* Product banner */
-/* Product banner */
+.filter {
+  border-radius: 20px;
+  padding: 0.4rem 0.6rem;
+  background-color: transparent;
+  border: 1px solid var(--button-2);
+}
+
+.filter:hover {
+  -webkit-animation-name: hvr-back-pulse;
+  animation-name: hvr-back-pulse;
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  background-color: var(--button-1);
+  background-color: var(--button-1);
+}
+
+@keyframes hvr-back-pulse {
+  50% {
+    background-color: var(--button-2);
+  }
+}
+
+.input-filter {
+  background-color: var(--background);
+  border-radius: 20px;
+  border: none;
+  padding: 0.3rem 0.6rem;
+  color: var(--fuentes-1);
+}
+
+/* Product  */
