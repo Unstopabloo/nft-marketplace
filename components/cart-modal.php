@@ -1,4 +1,4 @@
-<section class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<section class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog container modal-dialog-centered">
     <article class="modal-content antonio bg-2 text-1 p-1 p-md-5">
       <div class="modal-product p-3 p-md-4 container">
@@ -6,7 +6,7 @@
           <img loading="lazy" class="modal-product-img col-md-6 col-12" src="./assets/img/nft_poster_1.webp" alt="Card product image">
           <div class="modal-product-content col-md-6 col-12">
             <div class="modal-header row">
-              <span class="modal-artist col-11">Artista destacado</span>
+              <span class="modal-artist col-11">Carrito</span>
               <button type="button col-1" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
               <h2 class="modal-title title-2 col-12" id="exampleModalLabel">Modal title</h2>
             </div>

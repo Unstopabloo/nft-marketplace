@@ -185,7 +185,7 @@
     
     </ul>
   </div>
-  <?php require('./components/modal.php') ?>
+  
   <script>
     document.addEventListener( 'DOMContentLoaded', function() {
       var splide = new Splide( '.splide', {
