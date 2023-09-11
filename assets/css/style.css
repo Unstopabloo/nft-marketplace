@@ -127,6 +127,23 @@ body {
   box-shadow: none;
 }
 
+.dropdown-item {
+  color: var(--fuentes-1);
+
+  .drop-svg {
+    fill: var(--fuentes-1);
+  }
+}
+
+.dropdown-item:hover {
+  background-color: var(--background);
+  color: var(--modal);
+
+  .drop-svg {
+    fill: var(--modal);
+  }
+}
+
 .dropdown-toggle::after {
   display: none;
 }
@@ -153,7 +170,11 @@ body {
 
 .cart-icon {
   cursor: pointer;
-  fill: white;
+  fill: var(--fuentes-1);
+
+  :hover {
+    fill: var(--modal);
+  }
 }
 
 .nav-link:hover {
