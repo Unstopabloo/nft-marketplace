@@ -5,9 +5,9 @@
   <?php 
     require('./components/filters.php');
     require('./components/product-cards.php');
+    require('./components/modal.php');
+    require('./components/cart-modal.php');
   ?>
-  <?php require('./components/modal.php'); ?>
-  <?php require('./components/cart-modal.php') ?>
 </main>
 
 <?php require('./components/footer.php') ?>
