@@ -503,6 +503,10 @@ small {
 
 /* Modal content */
 
+
+
+
+
 @media (width <= 1200px) {
   .artist-card {
     width: 30%;
