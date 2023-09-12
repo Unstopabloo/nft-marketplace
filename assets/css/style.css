@@ -533,16 +533,4 @@ table tbody tr th, td{
 .modal-fullscreen {
   margin: 0 auto;
 }
-
-@media (width <= 995px) {
-    .modal-content{
-      height: max-content!important;
-    }
-}
-
-@media (width <= 765px) {
-  .modal-content{
-    height: max-content!important;
-  }
-}
 /* Cart modal */
