@@ -1,3 +1,4 @@
+<?php require('./src/db/connection.php') ?>
 <!doctype html>
 <html lang="es">
   <head>

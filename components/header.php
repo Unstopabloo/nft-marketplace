@@ -1,4 +1,4 @@
-<header class="bg-2 text-1 py-2 position-sticky top-0 z-1">
+<header class="bg-2 text-1 py-2 position-sticky top-0 z-2">
   <nav class="navbar navbar-expand-lg">
     <div class="container-fluid">
       <a class="navbar-brand col-2" href="./index.php">

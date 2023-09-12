@@ -79,8 +79,12 @@ body {
   font-size: 13px;
 }
 
-.font-15 {
-  font-size: 15px;
+.font-17 {
+  font-size: 17px;
+}
+
+.font-20 {
+  font-size: 20px;
 }
 
 .antonio {
@@ -203,7 +207,7 @@ body {
 .hero .box2 {
   position: relative;
   left: -30%;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .hero .box3 {
@@ -231,7 +235,7 @@ body {
 
 .product-1-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -378,6 +382,12 @@ small {
 /* Artist Card */
 
 /* Product */
+
+.product-card-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 11px;
+}
 
 .product-banner {
   position: absolute;
