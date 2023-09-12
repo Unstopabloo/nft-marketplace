@@ -13,12 +13,10 @@
 
             <div class="col-sm-6">
         
-
-
                 <div class="d-flex caja">
 
                     <div class="box  boxi">
-                        <img src="./assets/img/dekie.webp" alt="">
+                        <img loading="lazy" src="./assets/img/dekie.webp" alt="">
                     </div> 
 
                     <div class="box box2">
