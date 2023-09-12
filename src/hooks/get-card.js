@@ -42,7 +42,7 @@ $(document).ready(() => {
                     <div class="modal-header row">
                       <span class="modal-artist col-11">Artista destacado</span>
                       <button type="button col-1" class="btn-close text-white" data-bs-dismiss="modal" aria-label="Close"></button>
-                      <h2 class="modal-title title-2 col-12" id="exampleModalLabel"># ${
+                      <h2 class="modal-title title-2 col-12" id="exampleModalLabel">#${
                         data.nombre
                       }</h2>
                     </div>
