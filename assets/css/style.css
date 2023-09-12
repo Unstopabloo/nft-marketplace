@@ -484,10 +484,6 @@ table tbody tr th, td{
   color: var(--accion-1)!important;
 }
 
-.antonio {
-  font-family: 'Antonio', sans-serif;
-}
-
 .modal-footer {
   justify-content: start;
   padding: 1rem 1rem;
