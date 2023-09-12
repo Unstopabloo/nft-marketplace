@@ -48,9 +48,6 @@ body {
 }
 
 @media (width <= 1150px) {
-  .container {
-    max-width: 95%;
-  }
 }
 
 .bg-1 {
@@ -83,8 +80,12 @@ body {
   font-size: 13px;
 }
 
-.font-15 {
-  font-size: 15px;
+.font-17 {
+  font-size: 17px;
+}
+
+.font-20 {
+  font-size: 20px;
 }
 
 .antonio {
@@ -128,6 +129,23 @@ body {
   box-shadow: none;
 }
 
+.dropdown-item {
+  color: var(--fuentes-1);
+
+  .drop-svg {
+    fill: var(--fuentes-1);
+  }
+}
+
+.dropdown-item:hover {
+  background-color: var(--background);
+  color: var(--modal);
+
+  .drop-svg {
+    fill: var(--modal);
+  }
+}
+
 .dropdown-toggle::after {
   display: none;
 }
@@ -146,20 +164,63 @@ body {
 }
 
 @media (width <= 1153px) {
-  .cart-anchor {
-    margin-top: 1rem;
-    border: 1pcx solid black;
-  }
 }
 
 .cart-icon {
   cursor: pointer;
-  fill: white;
+  fill: var(--fuentes-1);
+
+  :hover {
+    fill: var(--modal);
+  }
 }
 
 .nav-link:hover {
   color: var(--modal);
 }
+
+/* Hero */
+
+.hero h1 {
+  color: white;
+}
+
+.boton a {
+  text-decoration: none;
+  color: white;
+  padding: 15px;
+  padding-left: 70px;
+  padding-right: 60px;
+  border: 2px solid #dd6ace;
+  border-radius: 100px;
+  transition: ease 0.3s;
+}
+
+.boton a:hover {
+  transition: ease 0.3s;
+  background-color: #dd6ace;
+}
+
+.hero .box img {
+  width: 300px;
+}
+
+.hero .box2 {
+  position: relative;
+  left: -30%;
+  z-index: 1;
+}
+
+.hero .box3 {
+  position: relative;
+  left: -60%;
+}
+
+.boxi {
+  opacity: 0.4;
+}
+
+/* Hero */
 
 /* Carrousel Home */
 
@@ -175,7 +236,7 @@ body {
 
 .product-1-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -250,6 +311,18 @@ small {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: var(--fuentes-1);
+  text-decoration: none;
+  font-size: 25px;
+  font-weight: 700;
+  text-shadow: 2px 2px 10px var(--background);
+}
+
+.category-banner-title {
+  display: none;
 }
 
 .category-banner a:hover {
@@ -257,6 +330,10 @@ small {
   width: 300px;
   opacity: 1;
   filter: brightness(1.2) contrast(1.2);
+
+  .category-banner-title {
+    display: block;
+  }
 }
 
 /* Category Banner */
@@ -270,25 +347,6 @@ small {
   box-shadow: 0px 7px 28px 0px rgba(0, 0, 0, 0.25);
   width: 22%;
   margin-bottom: 1rem;
-}
-
-@media (width <= 1200px) {
-  .artist-card {
-    width: 30%;
-    margin: 0 auto;
-  }
-}
-
-@media (width <= 995px) {
-  .artist-card {
-    width: 40%;
-  }
-}
-
-@media (width <= 765px) {
-  .artist-card {
-    width: 90%;
-  }
 }
 
 .artist-card-img {
@@ -325,6 +383,12 @@ small {
 /* Artist Card */
 
 /* Product */
+
+.product-card-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 11px;
+}
 
 .product-banner {
   position: absolute;
@@ -534,3 +598,4 @@ table tbody tr th, td{
   margin: 0 auto;
 }
 /* Cart modal */
+

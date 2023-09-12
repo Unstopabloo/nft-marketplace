@@ -42,5 +42,7 @@
       </div>
     </footer>
     <script src="./assets/js/splide.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <?php mysqli_close($connection) ?>
   </body>
 </html>
