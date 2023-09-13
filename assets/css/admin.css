@@ -5,10 +5,11 @@
 }
 .legend-class {
     color: #fffff1;
-   
+    
 }
 .form-label_text{
     color: #fffff1;
+    margin-top: 10px ;
 }
 input[type="number"]::-webkit-inner-spin-button,
 input[type="number"]::-webkit-outer-spin-button {
@@ -22,4 +23,17 @@ input[type="number"]::-webkit-outer-spin-button {
     border-radius: 25px;
     border: 2px solid  #686666;
     font-family: 'Antonio', sans-serif;
+}
+.form_boton_agregar:hover{
+    background-color: #686666;
+    transition-duration: 0.5s;
+}
+.input_bordes{
+    background-color: #1a1a1aab;
+    border: 1px solid #686666;
+    color: #fffff1;
+}
+.input_bordes:focus{
+    background-color: #686666;
+    color: #fffff1;
 }
