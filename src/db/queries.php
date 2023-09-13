@@ -1,21 +1,21 @@
 <?php
 
-// require('connection.php');
+require('connection.php');
 
-// if(isset($_GET['card']) && $_GET['card']=='get_cards'){
+if(isset($_GET['card']) && $_GET['card']=='get_cards'){ 
 
-// 	$query='SELECT * FROM `nft`';
+	$query='SELECT * FROM `nft`';
 
-// 	$resource = $connection->query($query); 
-// 	$total = $resource->num_rows;
-// 	$data=array();
-// 	while ($row = $resource->fetch_assoc()){
-// 		$data[]=$row;
-// 	}
+	$resource = $connection->query($query); 
+	$total = $resource->num_rows;
+	$data=array();
+	while ($row = $resource->fetch_assoc()){
+		$data[]=$row;
+	}
 	
-// 	//echo "<pre>",print_r($data,1),"</pre>";
-// 	echo json_encode($data);
-// }require('connection.php');
+	//echo "<pre>",print_r($data,1),"</pre>";
+	echo json_encode($data);
+}require('connection.php');
 
 
 
