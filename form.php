@@ -6,37 +6,48 @@
      
      <form action="get">
         <fieldset>
-            <legend>Agregar producto</legend>
+            <legend class="legend-class">Agregar producto</legend>
             <div class="mb-3">
-                <label for="" class="form-label">Nombre</label>
-                <input name="nombre" type="text">
+                <label for="nombre" class="form-label form-label_text">Nombre</label>
+                <input name="nombre" type="text" class="form-control">
             </div>
 
             <div class="mb-3">
-            <label for="precio" class="form-label">Precio inicial</label>
-            <input name="precio" type="text">
+            <label for="precio" class="form-label form-label_text">Precio inicial</label>
+            <input name="precio" type="number" class="form-control"  >
             </div>
-             <div class="mb-3">
-             <label for="artistas" class="form-label">Artistas</label>
-            <input name="artistas" type="text">
-             </div>
+
+            <div class="mb-3">
+            <label for="disabledSelect" class="form-label form-label_text">Elige tu artista</label>
+                <select  class="form-select">
+                <option>c</option>
+                <option>a</option>
+                <option>t</option>
+                <option>e</option>
+                </select>
+                </div>
             
              <div class="mb-3">
-            <label for="Sku" class="form-label">SKU</label>
-            <input name="Sku" type="text">
+            <label for="Sku" class="form-label form-label_text">SKU</label>
+            <input name="Sku" type="text" class="form-control">
             </div>
         <div class="mb-3">
-      <label for="disabledSelect" class="form-label">Elige categoria</label>
+      <label for="disabledSelect" class="form-label form-label_text">Elige categoria</label>
       <select  class="form-select">
         <option>c</option>
         <option>a</option>
         <option>t</option>
         <option>e</option>
       </select>
-    </div>
-        <input type="text">
+    </div> 
+         <div class="mb-3">
+            <label for="" class="form-label_text">Descripcion</label>
+         <textarea class="form-control" name="" id="" cols="30" rows="10"></textarea>
+         </div>
+        <div class="mb-3">
+            <input type="submit" class="form_boton_agregar px-4 py-1" value="Agregar">
+        </div>
         </fieldset>
-        
      </form>
  </section>
 </main>
