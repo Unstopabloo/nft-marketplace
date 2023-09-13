@@ -5,7 +5,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -31,7 +31,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -57,7 +57,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -83,7 +83,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -109,7 +109,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -135,7 +135,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">
@@ -161,7 +161,7 @@
       <li class="splide__slide">
         <a href="#" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" class="product-1 row">
           <header class="col-12 py-2">
-            <h3 class="product-1-title font-15">Nombre producto</h3>
+            <h3 class="product-1-title font-17">Nombre producto</h3>
           </header>
           <img class="col-12" loading="lazy" src="./assets/img/PRODUCT-IMAGE.png" alt="Imagen de un token">
           <div class="w-100 py-3 d-flex">

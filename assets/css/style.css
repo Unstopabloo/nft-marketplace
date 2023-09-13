@@ -9,6 +9,7 @@
   --accion-1: #61eb4a;
   --button-1: #3a1936;
   --button-2: #c66add;
+  --background-cart-modal-borde: rgba(208, 208, 208, 0.12);
 }
 
 * {
@@ -79,8 +80,12 @@ body {
   font-size: 13px;
 }
 
-.font-15 {
-  font-size: 15px;
+.font-17 {
+  font-size: 17px;
+}
+
+.font-20 {
+  font-size: 20px;
 }
 
 .antonio {
@@ -203,7 +208,7 @@ body {
 .hero .box2 {
   position: relative;
   left: -30%;
-  z-index: 9999;
+  z-index: 1;
 }
 
 .hero .box3 {
@@ -231,7 +236,7 @@ body {
 
 .product-1-title {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   line-height: normal;
 }
 
@@ -379,6 +384,12 @@ small {
 
 /* Product */
 
+.product-card-img {
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 11px;
+}
+
 .product-banner {
   position: absolute;
   top: 0;
@@ -502,6 +513,94 @@ small {
 }
 
 /* Modal content */
+
+/* Cart modal */
+.bg-3 {
+  background: var(--background-2);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
+  border-radius: 20px !important;
+  border: 2px solid var(--background-cart-modal-borde) !important;
+}
+
+table thead tr th {
+  text-align: center;
+  color: var(--fuentes-1) !important;
+}
+
+table tbody tr th,
+td {
+  text-align: center;
+  color: var(--fuentes-1) !important;
+}
+
+.title-cart {
+  color: var(--fuentes-1);
+}
+
+.modal-product-content-compra {
+  border-radius: 20px !important;
+  border: 2px solid var(--background-cart-modal-borde) !important;
+  height: max-content;
+}
+
+.color-oferta-cart {
+  color: var(--accion-1) !important;
+}
+
+.modal-footer {
+  justify-content: start;
+  padding: 1rem 1rem;
+}
+
+.btn-comprar {
+  border: none !important;
+  background-color: var(--button-2);
+  color: var(--fuentes-1);
+  padding: 6px 1px;
+  border-radius: 41px;
+  width: -webkit-fill-available;
+}
+
+.color-info-cart {
+  color: var(--fuentes-1);
+}
+
+.table > :not(caption) > * > * {
+  padding: 1rem 0.5rem;
+  color: var(
+    --bs-table-color-state,
+    var(--bs-table-color-type, var(--bs-table-color))
+  );
+  background: transparent;
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px
+    var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+
+.select-cart {
+  background-color: transparent;
+  color: var(--fuentes-1);
+  border-radius: 30px;
+  padding: 0 14px 0 14px;
+}
+
+.select-cart option {
+  color: var(--primary-background);
+}
+
+.color-svg-eliminar {
+  fill: #f01212;
+}
+
+.color-svg-salir {
+  fill: var(--fuentes-1);
+}
+
+.modal-fullscreen {
+  margin: 0 auto;
+}
+/* Cart modal */
 
 @media (width <= 1200px) {
   .artist-card {

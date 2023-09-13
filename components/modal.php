@@ -14,7 +14,7 @@
               <p class="col-12">
                 Cositas que dira el nft Cositas que dira el nft Cositas que dira el nft Cositas que dira el nft Cositas que dira el nft Cositas que dira el nft
               </p>
-              <strong class="modal-price font-15 d-flex align-items-center gap-3 pt-2"><span class="badge">0.141 ETH</span> $148 USD</strong>
+              <strong class="modal-price font-15 d-flex align-items-center gap-3 pt-2"><span id="price" class="badge">0.141 ETH</span> $148 USD</strong>
             </div>
             <div class="modal-footer row mt-4">
               <button type="button" class="btn text-1 border col-4" data-bs-dismiss="modal">Comprar ahora</button>

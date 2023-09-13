@@ -34,12 +34,12 @@
 
             <div class="col-sm-12 col-md-6 text-center">
         
-
-
                 <div class="d-flex caja">
 
                     <div class="box  boxi">
+
                         <img src="./assets/img/one.png" alt="">
+
                     </div> 
 
                     <div class="box box2">
