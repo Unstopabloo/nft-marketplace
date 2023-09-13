@@ -1,6 +1,7 @@
 $(document).ready(() => {
   $.post('./src/db/queries.php?card=get_cards', (data) => {
     data = $.parseJSON(data)
+    $('#founds').html(`Encontraddos: ${data.length}`)
     $.each(data, (key, value) => {
       const card = `
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center py-1 mb-5">
