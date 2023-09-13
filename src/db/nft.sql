@@ -34,9 +34,10 @@ CREATE TABLE Artistas (
 
 
 CREATE TABLE NFTs (
-    Id INT PRIMARY KEY,
+    Id INT AUTO_INCREMENT PRIMARY KEY,
     Nombre VARCHAR(255) NOT NULL,
     Precio DECIMAL(10, 2),
+    Descricion VARCHAR(500),
     CategoriasId INT, 
     ArtistasId INT, 
     SKU VARCHAR(50),
@@ -49,5 +50,3 @@ ADD FOREIGN KEY (CategoriasId) REFERENCES Categorias(Id);
 
 ALTER TABLE NFTs
 ADD FOREIGN KEY (ArtistasId) REFERENCES Artistas(Id);
-
-INSERT INTO 'nft' (Nombre, Precio, CategoriasId, ArtistasId, SKU, Destacado) VALUES ('Zoom', 0.230, 4, 1, 'po01', true);

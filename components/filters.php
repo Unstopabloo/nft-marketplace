@@ -18,7 +18,7 @@
   </div>
   <form action="GET" class="col-12 col-md-6" >
     <div class="d-flex flex-column align-items-end">
-      <span class="text-1 col-12 pb-4 text-end">Encontrados: 15</span>
+      <span id="founds" class="text-1 col-12 pb-4 text-end">Encontrados: 15</span>
       <input class="input-filter col-12 col-md-10" type="text" name="search" placeholder="Descubre más tokens...">
     </div>
   </form>
