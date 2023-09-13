@@ -1,5 +1,5 @@
 <?php require('./head.php'); ?>
-
+<img src="./assets/img/fondo.png" alt="" class="fondo">
 <main class="container py-3">
   <?php 
     require('./components/hero.php');
