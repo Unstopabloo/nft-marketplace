@@ -1,6 +1,6 @@
 <section class="modal fade" id="carritoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog container-fluid modal-fullscreen">
-      <article class="modal-content antonio bg-3 text-1 p-1 p-md-5 py-xs-4">
+      <div class="modal-content antonio bg-3 text-1 p-1 p-md-5 py-xs-4">
         <div class="container">
           <div class="row">
   
@@ -9,7 +9,7 @@
             </div>
   
             <div class="title-cart col-12 mb-5">
-              <h1 class="title-cart">Carrito</h1>
+              <h2 class="title-cart">Carrito</h2>
             </div>
   
             <div class="modal-product-content-table col-md-9 col-12">
@@ -85,6 +85,6 @@
             </div>
           </div>
         </div>
-      </article>
+      </div>
     </div>
 </section>

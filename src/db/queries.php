@@ -4,7 +4,7 @@ require('connection.php');
 
 if(isset($_GET['card']) && $_GET['card']=='get_cards'){ 
 
-	$query='SELECT * FROM `nft`';
+	$query='SELECT * FROM `nfts`';
 
 	$resource = $connection->query($query); 
 	$total = $resource->num_rows;
