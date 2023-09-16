@@ -233,6 +233,39 @@ body {
   opacity: 0.6;
 }
 
+.orb {
+  position: fixed;
+  top: 10em;
+  left: 30%;
+  z-index: -3;
+  width: 30em;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  filter: blur(100px);
+  box-shadow: 0px 0px 300px #c66addc6, 0px 0px 400px #c66addc6,
+    inset 0px 0px 300px #c66addc6;
+  animation: spin infinite ease;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}
+
+.orb::after {
+  content: 'NFT';
+  display: fixed;
+  top: 20rem;
+  left: 30%;
+  z-index: -3;
+  font-size: 300px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* Hero */
 
 /* Carrousel Home */
@@ -620,6 +653,94 @@ td {
   margin: 0 auto;
 }
 /* Cart modal */
+
+/* Loader */
+
+.jelly-triangle {
+  --uib-size: 44px;
+  --uib-speed: 1.75s;
+  --uib-color: var(--button-2);
+
+  position: relative;
+  height: var(--uib-size);
+  width: var(--uib-size);
+  filter: url('#uib-jelly-triangle-ooze');
+}
+
+.jelly-triangle__dot,
+.jelly-triangle::before,
+.jelly-triangle::after {
+  content: '';
+  position: absolute;
+  width: 33%;
+  height: 33%;
+  background: var(--uib-color);
+  border-radius: 100%;
+}
+
+.jelly-triangle__dot {
+  top: 6%;
+  left: 30%;
+  animation: grow var(--uib-speed) ease infinite;
+}
+
+.jelly-triangle::before {
+  bottom: 6%;
+  right: 0;
+  animation: grow var(--uib-speed) ease calc(var(--uib-speed) * -0.666) infinite;
+}
+
+.jelly-triangle::after {
+  bottom: 6%;
+  left: 0;
+  animation: grow var(--uib-speed) ease calc(var(--uib-speed) * -0.333) infinite;
+}
+
+.jelly-triangle__traveler {
+  position: absolute;
+  top: 6%;
+  left: 30%;
+  width: 33%;
+  height: 33%;
+  background: var(--uib-color);
+  border-radius: 100%;
+  animation: triangulate var(--uib-speed) ease infinite;
+}
+
+.jelly-maker {
+  width: 0;
+  height: 0;
+  position: absolute;
+}
+
+@keyframes triangulate {
+  0%,
+  100% {
+    transform: none;
+  }
+
+  33.333% {
+    transform: translate(120%, 175%);
+  }
+
+  66.666% {
+    transform: translate(-95%, 175%);
+  }
+}
+
+@keyframes grow {
+  0%,
+  100% {
+    transform: scale(1.5);
+  }
+
+  20%,
+  70% {
+    transform: none;
+  }
+}
+
+/* Loader */
 
 @media (width <= 1200px) {
   .artist-card {

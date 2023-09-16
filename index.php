@@ -1,5 +1,7 @@
 <?php require('./head.php'); ?>
-<img src="./assets/img/fondo.png" alt="" class="fondo">
+<!-- <img src="./assets/img/fondo.png" alt="" class="fondo"> -->
+<span class="nft-bg">NFT</span>
+<div class="orb"></div>
 <main class="container py-3">
   <?php 
     require('./components/hero.php');
